@@ -131,6 +131,40 @@ The dataset contains various attributes related to schools, such as:
 
 These features help in performing exploratory data analysis, identifying educational trends, and evaluating school infrastructure and resource distribution.
 
+**Tools & Technologies**
+
+**Platform**
+
+Google Colab
+
+**Programming Language**
+
+Python
+
+**Libraries Used**
+
+**Data Processing**
+
+NumPy
+
+Pandas
+
+**Visualization**
+
+Matplotlib
+
+Seaborn
+
+Plotly Express
+
+**Text Processing**
+
+re
+
+**Warning Handling**
+
+warnings
+
 **Data Cleaning and Pre-processing**
 
 •	Handle duplicates
