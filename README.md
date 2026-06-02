@@ -14,6 +14,7 @@ This project aims to use Python libraries such as Pandas, NumPy, Matplotlib, and
 **Location:** https://indiadataportal.com/p/udise/r/moe-udise_basic_details-pl-ot-sib
 **Year/Timeline:** Data collected during the period 1701 to 2021
 **Domain:** Education
+
 # Business Problem
 Educational institutions and government authorities often face challenges in understanding whether schools are adequately distributed and properly equipped to support student populations. Large datasets containing school information are available, but extracting meaningful insights manually is difficult and time-consuming.
 **There may be issues such as:**
