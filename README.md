@@ -205,67 +205,104 @@ warnings
 
 **Statistical analysis & Visualizations**
 
-**•	Measure of Central Tendency**
+# Measure of Central Tendency (Total Students)
+**Values**
 
-**Interpretation:**
+Mean: 84.41 students
 
-	Most schools have lower student enrollment.
+Median: 67 students
 
-	Few schools have very high student counts.
+Mode: 30 students
 
-	The distribution is positively skewed.
+**Interpretation**
 
-	Many schools are small or rural.
+The average school has approximately 84 students.
 
-	A few schools are overcrowded.
+Half of the schools have 67 students or fewer.
 
-	Educational authorities may need better student distribution and infrastructure planning.
+The most common enrollment size is 30 students.
 
-	Mean is greater than median due to large schools pulling the average upward.
+Since Mean (84.41) > Median (67) > Mode (30), the distribution is positively skewed.
+
+A large number of schools have low enrollment, while a smaller number of schools have very high enrollment.
+
+**Insight**
+
+This indicates an uneven distribution of students across schools, where many schools operate with small enrollments while a few schools accommodate large student populations.
 
 **Variance and Standard Deviation**
 
-**Interpretation:**
+**Values**
 
-	High standard deviation indicates wide variation in student enrollment.
+Variance: 3,920.13
 
-	Schools differ significantly in size.
+Standard Deviation: 62.61
 
-	Some schools operate with very small enrollments while others are heavily populated.
+**Interpretation - Variance**
 
-**This variability can affect:**
+Student enrollment varies considerably between schools.
 
-	Teacher allocation
+A standard deviation of 62.61 students is relatively high compared to the mean of 84.41 students.
 
-	Classroom requirements
+Schools differ significantly in size and capacity.
 
-	Government funding
+**Insight**
 
-	Infrastructure planning
+The education system contains a mix of:
 
-	Large variation suggests uneven educational resource distribution.
+Small schools with very low enrollment
+
+Medium-sized schools
+
+Large schools with high enrollment
+
+This suggests unequal utilization of educational infrastructure.
+
+# Interpretation - Standard Deviation
+
+Many schools are clustered around the average enrollment level.
+
+Several schools fall far from the mean.
+
+The wide spread confirms high variability in student enrollment.
+
+**Numerical Evidence**
+
+Approximate enrollment range for most schools:
+
+84.41 ± 62.61
+
+= 22 to 147 students
+
+**Insight**
+
+Most schools are expected to have enrollment within this range, while schools outside this range may require special attention for resource planning.
 
 **Skewness and Kurtosis**
 
-**Interpretation:**
+**Values**
 
-	Presence of many outliers.
+Skewness: 0.855
 
-	Positive skewness indicates long right tail.
+Kurtosis: -0.178
 
-	High kurtosis suggests extreme values exist.
+**Interpretation**
 
-	Some schools are exceptionally large compared to average schools.
+**Skewness**
 
-**This may indicate:**
+Positive value indicates a right-skewed distribution.
 
-	Urban concentration
+A few schools have exceptionally high student counts.
 
-	Popular government institutions
+**Kurtosis**
 
-	Resource imbalance
+Slightly negative kurtosis indicates a flatter distribution than a normal distribution.
 
-	Authorities may investigate whether overcrowded schools require expansion.
+Extreme values exist but are not excessively concentrated.
+
+**Insight**
+
+The distribution is moderately skewed and contains some large schools that significantly influence overall averages.
 
 **Visualizations**
 
@@ -465,28 +502,38 @@ Authorities can:
       
       •	Plan new school locations strategically
    
-**Final Conclusion**
+# Final conclusion:
 
-This project successfully transformed raw educational data into meaningful insights.
+This project analyzed 1,140,993 cleaned school records containing information on student enrollment, teachers, infrastructure, school types, and geographic locations.
 
-**The analysis revealed:**
+**Major Findings**
 
-•	Enrollment imbalance 
+✅ Average school enrollment is **84** students
 
-•	Teacher allocation gaps 
+✅ Half of the schools have **67** students or fewer
 
-•	Urban-rural educational differences 
+✅ The most common school size is **30** students
 
-•	Infrastructure challenges 
+✅ Enrollment variability is high (Standard Deviation = **62.61**)
 
-**The dataset is highly valuable for:**
+✅ Student distribution is positively skewed (Skewness = **0.855**)
 
-•	Educational policy planning 
+✅ Teacher and classroom availability increase with student enrollment
 
-•	Resource allocation 
+✅ Urban schools generally accommodate more students than rural schools
 
-•	Predictive modeling 
+✅ Several schools show unusually high student-teacher ratios, indicating staffing shortages
 
-•	Public sector decision-making 
+**Overall Conclusion**
 
-With advanced analytics and visualization, this dataset can support smarter educational reforms and long-term planning.    
+The analysis reveals that India's school ecosystem experiences:
+
+Uneven student distribution
+
+Teacher allocation gaps
+
+Urban-rural enrollment disparities
+
+Infrastructure utilization differences
+
+These findings can support educational authorities in making data-driven decisions regarding teacher deployment, infrastructure development, school expansion, and resource allocation to improve educational quality and accessibility.
